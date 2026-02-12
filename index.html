@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Floristería Premium</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6{font-family:"Karma",sans-serif}
+
+.video-container{
+position:relative;
+width:100%;
+height:65vh;
+overflow:hidden;
+}
+.video-container video{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+.video-overlay{
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.45);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#fff;
+flex-direction:column;
+}
+
+.product-card{transition:.3s;border-radius:12px}
+.product-card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 25px rgba(0,0,0,.2);
+}
+
+footer{background:#111;color:#fff;padding:40px 0}
+.stars{color:gold;font-size:22px}
+
+.whatsapp-float{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:#fff;
+border-radius:50%;
+width:60px;height:60px;
+display:flex;align-items:center;justify-content:center;
+font-size:30px;text-decoration:none;z-index:999;
+}
+
+@media(max-width:768px){
+.video-container{height:45vh}
+.video-overlay h2{font-size:26px}
+}
+</style>
+</head>
+
+<body>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/573244960499?text=Hola%20quiero%20información"
+class="whatsapp-float" target="_blank">
+<i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- NAV -->
+<div class="w3-top">
+<div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+<div class="w3-center w3-padding-16"><b>FLORISTERÍA FLOWER CRISTHP</b></div>
+</div>
+</div>
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:80px">
+
+<!-- VIDEO -->
+<div class="container-fluid p-0 mb-5">
+<div class="video-container">
+
+<video autoplay muted loop playsinline>
+<source src="floristeria.mp4" type="video/mp4">
+</video>
+
+<div class="video-overlay">
+<h2 style="font-size:48px;font-weight:bold;">Detalles que enamoran</h2>
+<p>Regalos florales que transmiten emociones</p>
+<a href="https://wa.me/573244960499?text=Hola%20quiero%20comprar"
+class="btn btn-success btn-lg mt-3" target="_blank">
+<i class="bi bi-whatsapp"></i> Pedir ahora
+</a>
+</div>
+
+</div>
+</div>
+
+<!-- PRODUCTOS 8 CARDS -->
+<div class="w3-row-padding w3-padding-16 w3-center">
+
+<!-- CARD 1 -->
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="1.png" style="width:100%">
+<h3>Ramo Rosas</h3>
+<p>Ramo elegante premium</p>
+<p><b>Precio:</b> $120.000</p>
+<p><b>Referencia:</b> REF001</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF001"
+target="_blank" class="w3-button w3-green">
+WhatsApp
+</a>
+</div>
+</div>
+
+<!-- CARD 2 -->
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="2.png" style="width:100%">
+<h3>Caja sorpresa</h3>
+<p>Detalle romántico</p>
+<p><b>Precio:</b> $150.000</p>
+<p><b>Referencia:</b> REF002</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF002"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+<!-- CARD 3 -->
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="3.png" style="width:100%">
+<h3>Girasoles</h3>
+<p>Arreglo vibrante</p>
+<p><b>Precio:</b> $95.000</p>
+<p><b>Referencia:</b> REF003</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF003"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+<!-- CARD 4 -->
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="4.png" style="width:100%">
+<h3>Ramo mix</h3>
+<p>Flores premium</p>
+<p><b>Precio:</b> $130.000</p>
+<p><b>Referencia:</b> REF004</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF004"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+</div>
+
+<!-- SEGUNDA FILA -->
+<div class="w3-row-padding w3-padding-16 w3-center">
+
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="5.png" style="width:100%">
+<h3>Rosas + Peluche</h3>
+<p>Detalle tierno</p>
+<p><b>Precio:</b> $170.000</p>
+<p><b>Referencia:</b> REF005</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF005"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="6.png" style="width:100%">
+<h3>Caja lujo</h3>
+<p>Edición premium</p>
+<p><b>Precio:</b> $220.000</p>
+<p><b>Referencia:</b> REF006</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF006"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="7.png" style="width:100%">
+<h3>Ramo tulipanes</h3>
+<p>Elegancia pura</p>
+<p><b>Precio:</b> $160.000</p>
+<p><b>Referencia:</b> REF007</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF007"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-padding product-card">
+<img src="8.png" style="width:100%">
+<h3>Ramo deluxe</h3>
+<p>Edición especial</p>
+<p><b>Precio:</b> $250.000</p>
+<p><b>Referencia:</b> REF008</p>
+<a href="https://wa.me/573013298315?text=Quiero%20REF008"
+target="_blank" class="w3-button w3-green">WhatsApp</a>
+</div>
+</div>
+
+</div>
+
+<!-- CONTACTO -->
+<div class="container my-5">
+<div class="row">
+
+<div class="col-md-6">
+<h3><b>Contacto</b></h3>
+<p><i class="bi bi-telephone-fill"></i> +573013298315-3244960499</p>
+<p><i class="bi bi-envelope-fill"></i> ventas@floristeria.com</p>
+<p><i class="bi bi-clock-fill"></i> Lunes a domingo 8am - 8pm</p>
+
+<a href="https://wa.me/573013298315"
+class="btn btn-success mt-2" target="_blank">
+Escribir WhatsApp
+</a>
+</div>
+
+<div class="col-md-6">
+<h3><b>Ubicación</b></h3>
+<p><i class="bi bi-geo-alt-fill"></i> Calle 45 #14-20 Parque Romero</p>
+
+<iframe 
+src="https://www.google.com/maps?q=bucaramanga&output=embed"
+width="100%" height="250"
+style="border-radius:12px;border:0;">
+</iframe>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- ===== REDES SOCIALES (NUEVO) ===== -->
+<div class="container text-center mb-5">
+<h3><b>Síguenos en redes</b></h3>
+
+<div class="redes">
+<a href="https://www.facebook.com/p/Florister%C3%ADa-flower-cristhp-100064862266582/" target="_blank">
+<i class="bi bi-facebook" style="color:#1877f2"></i></a>
+
+<a href="https://www.instagram.com/floristeria_flower.cristhp/" target="_blank">
+<i class="bi bi-instagram" style="color:#e1306c"></i></a>
+
+<a href="https://www.tiktok.com/@flowercristhp/video/7550299842610875654?lang=es-419" target="_blank">
+<i class="bi bi-tiktok" style="color:black"></i></a>
+</div>
+
+<p>Promociones, nuevos arreglos y sorpresas todos los días</p>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+<div class="container text-center">
+<h4>Floristería Flower Cristhp</h4>
+<p>Diseños florales que crean emociones inolvidables</p>
+<div class="stars">★★★★★</div>
+<p style="font-size:14px;margin-top:10px;">
+© 2026 Todos los derechos reservados
+</p>
+</div>
+</footer>
+
+</body>
+</html>
+
