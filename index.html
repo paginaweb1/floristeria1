@@ -13,6 +13,32 @@
 <style>
 body,h1,h2,h3,h4,h5,h6{font-family:"Karma",sans-serif}
 
+/* BOTÓN VOLVER */
+.btn-volver{
+position: fixed;
+top: 50%;
+left: 15px;
+transform: translateY(-50%);
+background: #000;
+color: #fff;
+width:50px;
+height:50px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:20px;
+z-index:1001;
+text-decoration:none;
+box-shadow:0 0 12px rgba(0,0,0,0.5);
+transition:0.3s;
+}
+.btn-volver:hover{
+background:#25D366;
+color:#fff;
+transform: translateY(-50%) scale(1.1);
+}
+
 .video-container{
 position:relative;
 width:100%;
@@ -66,6 +92,11 @@ font-size:30px;text-decoration:none;z-index:999;
 
 <body>
 
+<!-- BOTÓN VOLVER -->
+<a href="index.html" class="btn-volver">
+<i class="bi bi-arrow-left"></i>
+</a>
+
 <!-- WHATSAPP FLOTANTE -->
 <a href="https://wa.me/573244960499?text=Hola%20quiero%20información"
 class="whatsapp-float" target="_blank">
@@ -101,10 +132,9 @@ class="btn btn-success btn-lg mt-3" target="_blank">
 </div>
 </div>
 
-<!-- PRODUCTOS 8 CARDS -->
+<!-- PRODUCTOS -->
 <div class="w3-row-padding w3-padding-16 w3-center">
 
-<!-- CARD 1 -->
 <div class="w3-quarter">
 <div class="w3-card w3-padding product-card">
 <img src="1.png" style="width:100%">
@@ -113,13 +143,10 @@ class="btn btn-success btn-lg mt-3" target="_blank">
 <p><b>Precio:</b> $120.000</p>
 <p><b>Referencia:</b> REF001</p>
 <a href="https://wa.me/573209304898?text=Quiero%20REF001"
-target="_blank" class="w3-button w3-green">
-WhatsApp
-</a>
+target="_blank" class="w3-button w3-green">WhatsApp</a>
 </div>
 </div>
 
-<!-- CARD 2 -->
 <div class="w3-quarter">
 <div class="w3-card w3-padding product-card">
 <img src="2.png" style="width:100%">
@@ -132,7 +159,6 @@ target="_blank" class="w3-button w3-green">WhatsApp</a>
 </div>
 </div>
 
-<!-- CARD 3 -->
 <div class="w3-quarter">
 <div class="w3-card w3-padding product-card">
 <img src="3.png" style="width:100%">
@@ -145,7 +171,6 @@ target="_blank" class="w3-button w3-green">WhatsApp</a>
 </div>
 </div>
 
-<!-- CARD 4 -->
 <div class="w3-quarter">
 <div class="w3-card w3-padding product-card">
 <img src="4.png" style="width:100%">
@@ -219,19 +244,14 @@ target="_blank" class="w3-button w3-green">WhatsApp</a>
 
 <div class="col-md-6">
 <h3><b>Contacto</b></h3>
-<p><i class="bi bi-telephone-fill"></i> +573209304898-3209304898</p>
+<p><i class="bi bi-telephone-fill"></i> +573209304898</p>
 <p><i class="bi bi-envelope-fill"></i> ventas@floristeria.com</p>
 <p><i class="bi bi-clock-fill"></i> Lunes a domingo 8am - 8pm</p>
-
-<a href="https://wa.me/573013298315"
-class="btn btn-success mt-2" target="_blank">
-Escribir WhatsApp
-</a>
 </div>
 
 <div class="col-md-6">
 <h3><b>Ubicación</b></h3>
-<p><i class="bi bi-geo-alt-fill"></i> Calle 00 #00-00 </p>
+<p><i class="bi bi-geo-alt-fill"></i> Bucaramanga</p>
 
 <iframe 
 src="https://www.google.com/maps?q=bucaramanga&output=embed"
@@ -245,42 +265,16 @@ style="border-radius:12px;border:0;">
 
 </div>
 
-
-<!-- ===== REDES SOCIALES (NUEVO) ===== -->
-<div class="container text-center mb-5">
-<h3><b>Síguenos en redes</b></h3>
-
-<div class="redes">
-<a href="" target="_blank">
-<i class="bi bi-facebook" style="color:#1877f2"></i></a>
-
-<a href="" target="_blank">
-<i class="bi bi-instagram" style="color:#e1306c"></i></a>
-
-<a href="" target="_blank">
-<i class="bi bi-tiktok" style="color:black"></i></a>
-</div>
-
-<p>Promociones, nuevos arreglos y sorpresas todos los días</p>
-</div>
-
-</div>
-
 <!-- FOOTER -->
 <footer>
 <div class="container text-center">
 <h4>Floristería</h4>
 <p>Diseños florales que crean emociones inolvidables</p>
 <div class="stars">★★★★★</div>
-<p style="font-size:14px;margin-top:10px;">
-© 2026 Todos los derechos reservados
-</p>
+<p>© 2026</p>
 </div>
 </footer>
 
 </body>
 </html>
-
-
-
 
